@@ -12,3 +12,7 @@ def greeting_prefix(language):
     }
 
     return prefixes.get(language, "Olá, ")
+
+
+if __name__ == "__main__":
+    print(hello("Carlos", "Japanese"))
