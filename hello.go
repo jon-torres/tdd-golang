@@ -2,8 +2,10 @@ package main
 
 import "fmt"
 
+const portugueseHelloPrefix = "Olá, "
+
 func Hello(name string) string {
-	return "Hello, " + name
+	return portugueseHelloPrefix + name
 }
 
 func main() {
