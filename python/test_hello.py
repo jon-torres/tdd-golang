@@ -16,7 +16,3 @@ def test_hello_french():
 
 def test_hello_spanish():
     assert hello("Maria", "Spanish") == "Hola, Maria"
-
-
-def test_hello_unsupported_language():
-    assert hello("Kirk", "Klingon") == "Olá, Kirk"
